@@ -12,3 +12,7 @@ pyOpenSSL
 yamllint
 tox
 detox
+cryptography>=42.0.8 # not directly required, pinned by Snyk to avoid a vulnerability
+eventlet>=0.34.3 # not directly required, pinned by Snyk to avoid a vulnerability
+pylint>=2.7.0 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
