@@ -12,3 +12,4 @@ pyOpenSSL
 yamllint
 tox
 detox
+eventlet>=0.40.3 # not directly required, pinned by Snyk to avoid a vulnerability
